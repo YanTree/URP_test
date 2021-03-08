@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4016719020067532372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4016719020067532371}
+  - component: {fileID: 4016719020067532370}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4016719020067532371
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4016719020067532372}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4016719020067532370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4016719020067532372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fd7dfa2ce93afd4497281dd15acf6dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Run
+    clip: {fileID: 8300000, guid: 5b405e519cdd13849a06268974f901ae, type: 3}
+    loop: 0
+    play_on_awake: 0
+    volume: 0.6
+    pitch: 1.2
+    priority: 128
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: 508bb09112c87c5439edf24d6f8b7d66, type: 3}
+    loop: 0
+    play_on_awake: 0
+    volume: 0.6
+    pitch: 1
+    priority: 128
+    source: {fileID: 0}
+  - name: Egg
+    clip: {fileID: 8300000, guid: 0d90a163fff11df42a7c26b1831d2a1d, type: 3}
+    loop: 0
+    play_on_awake: 0
+    volume: 0.14
+    pitch: 1
+    priority: 127
+    source: {fileID: 0}
+  - name: GameComplete
+    clip: {fileID: 8300000, guid: 904bedf1dcdb8524189aeb5fc6e0673c, type: 3}
+    loop: 0
+    play_on_awake: 0
+    volume: 1
+    pitch: 1
+    priority: 127
+    source: {fileID: 0}
+  - name: BGM
+    clip: {fileID: 8300000, guid: 6629d4b6a161d03438c0d71a30340161, type: 3}
+    loop: 1
+    play_on_awake: 1
+    volume: 0.03
+    pitch: 1
+    priority: 129
+    source: {fileID: 0}
